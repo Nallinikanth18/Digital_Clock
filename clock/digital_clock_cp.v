@@ -7,7 +7,7 @@
  * Last Edit   : 25/05/2021                         *
  * ------------------------------------------------ *
  * Description : An FSM made to load data using a   *
-		         single bus                         *
+		         single bus                 *
  * ------------------------------------------------ */
 
 
