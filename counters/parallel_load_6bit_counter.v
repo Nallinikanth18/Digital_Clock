@@ -31,12 +31,12 @@ wire clear_reset;
 wire [5:0] out_bar;
 
 //-----------------------------------------------------
-wire d0, t0_d1, t0;         // for out[0]
-wire d1, t1_d1, t1;         // for out[1]
-wire d2, t2_d2, t2;         // for out[2]
-wire d3, t3_d3, t3;         // for out[3]
-wire d4, t4_d4, t4;         // for out[4]
-wire d5, t5_d5, t5;         // for out[5]
+wire d0, t_d1, t0;         // for out[0]
+wire d1, t_d1, t1;         // for out[1]
+wire d2, t_d2, t2;         // for out[2]
+wire d3, t_d3, t3;         // for out[3]
+wire d4, t_d4, t4;         // for out[4]
+wire d5, t_d5, t5;         // for out[5]
 
 //-----------------------------------------------------
 not O0 (out_bar[0],out[0]),  // for q'
